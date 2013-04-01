@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DICTrafficLights", "DICTrafficLights\DICTrafficLights.vcproj", "{BAFF80B9-AC3A-45D7-9E6E-F9FDF7376527}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DICTrafficLights", "DICTrafficLights\DICTrafficLights.vcxproj", "{BAFF80B9-AC3A-45D7-9E6E-F9FDF7376527}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

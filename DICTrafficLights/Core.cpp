@@ -11,7 +11,13 @@ using namespace std;
 
 int main()
 {
-	// implement: Initialize state.
+	if( LIGHTSTATUS->SystemIsReset() )
+	{
+		LIGHTSTATUS->SetStatusAmber(0); //0000 0010
+		LIGHTSTATUS->SetStatusRed(1); //0000 1010
+
+		LIGHTSDISPLAY->OutputDisplay(); 
+	}
 
 	int lightsSet = 0;
 
@@ -22,8 +28,7 @@ int main()
 			LIGHTSDISPLAY->UpdateDisplay(lightsSet);
 			LIGHTSDISPLAY->OutputDisplay();
 
-			// Complete implementation.
-	
+			lightsSet = LIGHTSTATUS->LightsCycled(lightsSet);
 		}
 
 	}
